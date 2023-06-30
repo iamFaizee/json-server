@@ -1,9 +1,58 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "name": "Faizan",
+      "email": "faizan@gmail.com",
+      "password": "faizan@123",
+      "id": 1
+    },
+    {
+      "name": "kamal",
+      "email": "kamal@gmail.com",
+      "password": "kamal@123",
+      "id": 2
+    },
+    {
+      "name": "pankaj",
+      "email": "pankaj@gmail.com",
+      "password": "pankaj@123",
+      "id": 3
+    },
+    {
+      "name": "bharat",
+      "email": "bharat@gmail.com",
+      "password": "bharat@123",
+      "id": 4
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "transactions": [
+    {
+      "type": "Income",
+      "category": "Gifts",
+      "amount": "5000",
+      "date": "2023-06-30",
+      "id": 1
+    },
+    {
+      "type": "Expense",
+      "category": "Bills",
+      "amount": "6000",
+      "date": "2023-06-30",
+      "id": 2
+    },
+    {
+      "type": "Expense",
+      "category": "Salary",
+      "amount": "7000",
+      "date": "2023-06-30",
+      "id": 3
+    },
+    {
+      "type": "Income",
+      "category": "Other",
+      "amount": "2000",
+      "date": "2023-06-08",
+      "id": 4
+    }
+  ]
 }
